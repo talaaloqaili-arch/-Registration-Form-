@@ -1,0 +1,79 @@
+form {
+  width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.inline {
+  display: inline-block;
+  width: auto;
+  margin: 8px 15px 5px 0;
+  font-weight: normal;
+}
+
+.inline input {
+  width: auto;
+  margin-right: 5px;
+}
+
+.terms {
+  display: block;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff7900;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e66d00;
+}
+
+/* ===== additions for the PHP pages ===== */
+.err { display: block; color: #d62839; font-size: 13px; margin-top: 4px; font-family: Arial, sans-serif; }
+.note { background: #fff3e8; padding: 10px; border-radius: 5px; font-size: 14px; }
+.links { margin-top: 20px; font-size: 14px; }
+a { color: #ff7900; }
+
+/* result / search / profile pages */
+.card { width: 500px; max-width: 90%; margin: 30px auto; padding: 25px; border: 1px solid #ddd; border-radius: 10px; font-family: Arial, sans-serif; box-sizing: border-box; }
+.card h1 { margin-top: 0; }
+dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; }
+dt { font-weight: bold; color: #555; }
+dd { margin: 0; }
+.btn { display: inline-block; padding: 10px 25px; border-radius: 5px; background: #ff7900; color: #fff; text-decoration: none; margin-right: 10px; }
+.btn:hover { background: #e66d00; }
+.row { display: flex; gap: 10px; }
+.row button { margin-top: 0; }
+@media (max-width: 560px) { form { width: auto; margin: 15px; } }
